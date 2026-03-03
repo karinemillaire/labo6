@@ -107,6 +107,11 @@ img {
   right: 20px;
 }
 
+.card .material-symbols-outlined:hover {
+  background-color: #5db7de;
+  color: #07020d;
+}
+
 .card {
   position: relative;
 }
@@ -161,7 +166,6 @@ img {
   background-color: white;
   padding: 30px;
   border-radius: 10px;
-  
 }
 
 .modal {
@@ -173,7 +177,11 @@ img {
   padding: 30px;
   top: 0;
   left: 0;
-  display: flex;
+  display: none;
   justify-content: center;
   align-items: center;
+}
+
+.modal.visible{
+    display: flex;
 }
