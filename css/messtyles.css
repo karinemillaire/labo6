@@ -13,6 +13,9 @@ body {
     serif;
   color: #fff;
   background-color: #07020d;
+}
+
+.wrapper {
   max-width: 1280px;
   margin: 0 auto;
 }
@@ -23,14 +26,19 @@ a {
   text-decoration: none;
 }
 
-button{
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
 }
 
 /************COMPONENTS***********/
 
+/*header*/
 .header {
   color: #07020d;
   position: fixed;
@@ -49,7 +57,6 @@ button{
   border-radius: 5px;
   padding: 10px 20px;
   max-width: 800px;
-  
 }
 
 .logo {
@@ -59,4 +66,28 @@ button{
 
 .material-symbols-outlined {
   font-size: 1.875rem;
+}
+
+/*Hero*/
+
+.hero {
+  height: 400px;
+  background-image: url(../images/photos/mountains.jpg);
+  background-size: cover;
+}
+
+/*contenu*/
+.contenu {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.contenu .wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px ;
+}
+
+.card img{
+    border-radius: 10px;
 }
