@@ -1,0 +1,22 @@
+/************GÉNÉRIQUE************/
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/************BASE***********/
+body{ 
+    font: 1.125rem/160% "Frank Ruhl Libre", serif;
+    color: #fff;
+    background-color: #07020d;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+/************MISE EN PAGE***********/
+
+/************ÉLÉMENTS***********/
+a{
+    text-decoration: none;
+}
+
+/************COMPONENTS***********/
