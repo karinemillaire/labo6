@@ -92,8 +92,8 @@ img {
   border-radius: 10px;
 }
 
-.material-symbols-outlined {
-  background-color: #07020D;
+.card .material-symbols-outlined {
+  background-color: #07020d;
   color: #5db7de;
   width: 44px;
   height: 44px;
@@ -109,4 +109,48 @@ img {
 
 .card {
   position: relative;
+}
+
+/*footer*/
+
+.footer p {
+  text-align: center;
+}
+
+.footer {
+  background-color: #5db7de;
+  font-size: 1.25rem;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: white;
+}
+
+/*menu*/
+
+.media {
+  background-color: #272727;
+  border-radius: 0 15px 0 15px;
+  padding: 10px;
+  position: fixed;
+  left: 0;
+  top: 200px;
+}
+
+.media img {
+    height: 40px;
+    width: 40px;
+    display: block;
+}
+
+.media ul {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: grid;
+    gap: 10px;
+}
+
+.media img:hover {
+    position: relative;
+    right: 3px;
 }
